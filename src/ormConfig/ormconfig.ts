@@ -7,8 +7,8 @@ const TypeOrmConfig: DataSourceOptions = {
   username: "user",
   password: "password",
   database: "geolocalizacao",
-  entities: ["./src/entities/*.ts"],
-  migrations: ["./src/migrations/*.ts"],
+  entities: ["./src/entities/*.{js,ts}"],
+  migrations: ["./src/migrations/*.{js,ts}"],
   migrationsRun: true,
 };
 
